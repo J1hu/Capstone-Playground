@@ -19,7 +19,7 @@ Testing Technologies for Capstone Project
 
 1. Clone the repository
    ```
-    git clone 
+    git clone https://github.com/J1hu/Capstone-Playground.git
    ```
 2. Install composer (if you dont have)
     ```
@@ -30,9 +30,9 @@ Testing Technologies for Capstone Project
 
 4. Rename .env.example to .env
     
-5. Install the dependencies
+5. Install and run the dependencies
    ```
-   npm install
+   npm install && npm run
    ```
 6. Start the project
    ```
@@ -45,7 +45,7 @@ Testing Technologies for Capstone Project
 1. Open XAMPP and start Apache and Mysql
 2. Open phpmyadmin: http://localhost/phpmyadmin
 3. Press New from left side navigation
-4. Enter database name as hotdesking
+4. Enter database name
 5. Open your env file and edit to DB_DATABASE=hotdesking
 6. If 2022 migrations are present and available, then proceed to the #4 on Migrations with existing db, if not, proceed to #1.
 
